@@ -1,0 +1,19 @@
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  height: 200px; /* Altura fija para la imagen */
+  object-fit: cover; /* Ajuste de la imagen para cubrir el espacio */
+}
+
+.card-body {
+  height: 100%; /* Para que el texto ocupe todo el espacio restante */
+  overflow: hidden; /* Ocultar cualquier desbordamiento de texto */
+}
+
+.card-title,
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis; /* Agrega puntos suspensivos (...) si el texto es demasiado largo */
+}
